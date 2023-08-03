@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/contact.js" defer></script>
+</head>
+
+<body>
+
+    <!--Header Start-->
+    <header>
+        <div class="header-top">
+            <div class="display-frame">
+                <p>When creativity unlocks, extra-ordinary happens!</p>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="display-frame">
+                <div class="logo"><a href="index.html"><img src="images/logo.svg" title="Ravi Kandel" alt="Logo"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="media-icons">
+                    <a title="Facebook" class="icon-facebook" href="https://www.facebook.com/ravi.kandel2"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a title="Twitter" class="icon-twitter" href="http://www.twitter.com/ravikandel1"><i
+                            class="fab fa-twitter"></i></a>
+                    <a title="Instagram" class="icon-instagram" href="https://www.instagram.com/ravi.kandel2"><i
+                            class="fab fa-instagram"></i></a>
+                    <a title="LinkedIn" class="icon-linkedin" href="https://www.instagram.com/ravi.kandel2"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a title="Github" class="icon-github" href="https://github.com/ravikandel1"> <i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!-- Breadcrum Section Start -->
+    <section class="breadcrum">
+        <div class="display-frame">
+            <h1>Contact</h1>
+            <ul>
+                <li><a href="index.html">Home</a><i class="fa fa-arrow-right"></i></li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </section>
+    <!--Breadcrum Section End -->
+
+    <!-- Main Banner Section Start -->
+    <section class="contact">
+        <div class="display-frame">
+            <h1>Feel free to get in touch with me!</h1>
+            <div class="left-column">
+                <div class="information">
+                    <i class="fa fa-phone"></i>
+                    <h2>Phone</h2>
+                    <a href="tel:0420509002">0420509002</a>
+                </div>
+                <div class="information">
+                    <i class="fa fa-envelope"></i>
+                    <h2>Email</h2>
+                    <a href="mailto:ravkdl@gmail.com">ravkdl@gmail.com</a>
+                </div>
+                <div class="information">
+                    <i class="fa fa-map"></i>
+                    <h2>Address</h2>
+                    <a href="https://goo.gl/maps/YNYn5zZLjS732krBA">Sydney, Australia</a>
+                </div>
+                <div class="information">
+                    <i class="fa fa-globe"></i>
+                    <h2>Web</h2>
+                    <a href="https://www.ravikandel.com.np">www.ravikandel.com.np</a>
+                </div>
+                <div class="media-icons">
+                    <a title="Facebook" class="icon-facebook" href="https://www.facebook.com/ravi.kandel2"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a title="Twitter" class="icon-twitter" href="http://www.twitter.com/ravikandel1"><i
+                            class="fab fa-twitter"></i></a>
+                    <a title="Instagram" class="icon-instagram" href="https://www.instagram.com/ravi.kandel2"><i
+                            class="fab fa-instagram"></i></a>
+                    <a title="LinkedIn" class="icon-linkedin" href="https://www.instagram.com/ravi.kandel2"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a title="Github" class="icon-github" href="https://github.com/ravikandel1"> <i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="right-column">
+                <form method="post" onsubmit="validateForm()" action="">
+                    <div class="group">
+                        <div class="item">
+                            <input type="text" id="fullName" class="control" placeholder="Your Full Name *"
+                                name="fullName" required>
+                            <i class="far fa-user"></i>
+                        </div>
+                        <div class="item">
+                            <select id="subject" class="control" required>
+                                <option disabled selected value>Request For</option>
+                                <option value="1">Web Development</option>
+                                <option value="2">Software Development</option>
+                                <option value="3">Digital Advertising</option>
+                                <option value="4">Graphic Designing</option>
+                                <option value="5">Web Hosting</option>
+                                <option value="6">Others</option>
+                            </select>
+                            <i class="fas fa-list"></i>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="item">
+                            <input type="email" id="email" class="control" placeholder="Your Email *" name="email"
+                                required>
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="item">
+                            <input type="text" id="phone" pattern="[0-9]{9}" class="control" placeholder="Your Phone *"
+                                name="phone" required>
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="item">
+                            <textarea id="message" class="control-textarea" placeholder="Your Message *" name="message"
+                                required></textarea>
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="item">
+                            <button type="submit" id="btnSubmit">Submit</button>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Main Banner Section End -->
+
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="hero-text">
+            <div class="media-icons">
+                <a title="Facebook" class="icon-facebook" href="https://www.facebook.com/ravi.kandel2"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a title="Twitter" class="icon-twitter" href="http://www.twitter.com/ravikandel1"><i
+                        class="fab fa-twitter"></i></a>
+                <a title="Instagram" class="icon-instagram" href="https://www.instagram.com/ravi.kandel2"><i
+                        class="fab fa-instagram"></i></a>
+                <a title="LinkedIn" class="icon-linkedin" href="https://www.instagram.com/ravi.kandel2"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a title="Github" class="icon-github" href="https://github.com/ravikandel1"> <i
+                        class="fab fa-github"></i></a>
+            </div>
+            <p>Copyright © 2013 - 2023, Ravi Kandel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
