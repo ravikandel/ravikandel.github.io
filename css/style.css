@@ -313,7 +313,6 @@ header .header-bottom .media-icons a {
     background-position: center;
     background-attachment: fixed;
     display: flex;
-    text-align: center;
     padding: calc(5vh) 0 calc(10vh);
 }
 
@@ -330,7 +329,7 @@ header .header-bottom .media-icons a {
     cursor: pointer;
     display: inline-grid;
     border: 1px solid #2964a0;
-    width: 31%;
+    width: 32%;
     height: 300px;
     background-color: #FFFFFF;
     padding: calc(10vh) calc(5vh);
@@ -365,7 +364,7 @@ header .header-bottom .media-icons a {
 /*Portfolio Section*/
 .portfolio {
     padding: calc(5vh) 0 calc(10vh);
-    text-align: center;
+    
 }
 
 .portfolio h1 {
@@ -373,16 +372,17 @@ header .header-bottom .media-icons a {
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    text-align: center;
     color: #004499;
 }
 
 .portfolio figure {
     display: inline-block;
-    width: 31%;
+    width: 32%;
     border: 2px solid #004499;
     color: #FFFFFF;
     border-radius: 5px;
-    margin: 20px 10px;
+    margin: 1% 0.5%;
     text-align: left;
     position: relative;
 }
