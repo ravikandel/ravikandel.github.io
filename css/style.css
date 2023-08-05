@@ -330,7 +330,7 @@ header .header-bottom .media-icons a {
     cursor: pointer;
     display: inline-grid;
     border: 1px solid #2964a0;
-    width: 32.33%;
+    width: 32%;
     height: 300px;
     background-color: #FFFFFF;
     padding: calc(10vh) calc(5vh);
@@ -379,7 +379,7 @@ header .header-bottom .media-icons a {
 
 .portfolio figure {
     display: inline-block;
-    width: 32.33%;
+    width: 32%;
     border: 2px solid #004499;
     color: #FFFFFF;
     border-radius: 5px;
