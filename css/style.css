@@ -233,6 +233,12 @@ header .header-bottom .media-icons a {
     border: 2px solid #004499;
     transition: all 0.4s ease;
 }
+.portfolio button,
+.blog button
+{
+    display: block;
+    margin: 0 auto;
+}
 
 .welcome-text button:hover,
 .right-column button:hover,
