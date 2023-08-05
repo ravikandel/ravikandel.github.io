@@ -326,10 +326,11 @@ header .header-bottom .media-icons a {
 }
 
 .services .column {
+    text-align: center;
     cursor: pointer;
     display: inline-grid;
     border: 1px solid #2964a0;
-    width: 32%;
+    width: 32.33%;
     height: 300px;
     background-color: #FFFFFF;
     padding: calc(10vh) calc(5vh);
@@ -378,7 +379,7 @@ header .header-bottom .media-icons a {
 
 .portfolio figure {
     display: inline-block;
-    width: 32%;
+    width: 32.33%;
     border: 2px solid #004499;
     color: #FFFFFF;
     border-radius: 5px;
@@ -451,13 +452,13 @@ header .header-bottom .media-icons a {
 
 /*Blog Section*/
 .blog {
-    text-align: center;
     padding: calc(5vh) 0 calc(10vh);
 }
 
 .blog h1 {
     padding: 20px 0;
     font-size: 42px;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #004499;
@@ -465,11 +466,11 @@ header .header-bottom .media-icons a {
 
 .blog figure {
     display: inline-flex;
-    width: 47.5%;
+    width: 49%;
     border: 1px solid #004499;
     color: #004499;
     border-radius: 5px;
-    margin: 20px 10px;
+    margin: 1% 0.5%;
     padding: 10px;
 }
 
