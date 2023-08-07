@@ -453,7 +453,24 @@ header .header-bottom .media-icons a {
     color: #004499;
 }
 
+.inquiry a {
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #004499;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 2px solid #004499;
+    transition: all 0.4s ease;
+}
 
+.inquiry a:hover{
+  background: transparent;
+    color: #004499;
+}
 
 /*Blog Section*/
 .blog {
