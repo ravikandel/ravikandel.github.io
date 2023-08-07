@@ -13,11 +13,5 @@ portfolioMore.addEventListener('click', () => {
     location.href="portfolio.html";
 });
 
-let contactMe = document.getElementById("btnContactMe");
-contactMe.addEventListener('click', () => {
-    location.href="contact.html";
-});
-
-
 
 
