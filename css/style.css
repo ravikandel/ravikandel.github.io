@@ -219,7 +219,6 @@ header .header-bottom .media-icons a {
 .welcome-text button,
 .right-column button,
 .portfolio button,
-.inquiry button,
 .blog button {
     outline: none;
     padding: 10px;
@@ -243,9 +242,7 @@ header .header-bottom .media-icons a {
 .welcome-text button:hover,
 .right-column button:hover,
 .portfolio button:hover,
-.inquiry button:hover,
 .blog button:hover {
-
     background: transparent;
     color: #004499;
 }
@@ -458,6 +455,7 @@ header .header-bottom .media-icons a {
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
+    display: inline-block;
     font-weight: 400;
     background-color: #004499;
     font-family: 'Poppins', sans-serif;
