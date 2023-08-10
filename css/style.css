@@ -525,8 +525,8 @@ header .header-bottom .media-icons a {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
-  border: 5px solid #FF9F55;
+  background-color: #FFFFFF;
+  border: 5px solid #004499;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -538,6 +538,9 @@ header .header-bottom .media-icons a {
 
 .right {
   left: 50%;
+}
+.right::after {
+  left: -16px;
 }
 
 .content {
