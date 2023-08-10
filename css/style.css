@@ -490,34 +490,37 @@ header .header-bottom .media-icons a {
 }
 
 
-/*Timeline Section*/
-.timeline {
-  position: relative;
-  max-width: 90%;
-  margin: 0 auto;
+/*Professional History Section*/
+.professional-summary {
+ background-image: url("../images/bg.jpg");
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ text-align: center;
+ padding: calc(10vh) 0;
+ position: relative;
+ margin: 0 auto;
 }
 
-.timeline::after {
+.professional-summary::after {
   content: '';
   position: absolute;
-  width: 6px;
-  background-color: white;
+  width: 5px;
+  background-color: #004499;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
 }
 
-/* Container around content */
-.container {
+.wrapper {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-/* The circles on the timeline */
-.container::after {
+.wrapper::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -530,17 +533,14 @@ header .header-bottom .media-icons a {
   z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -554,7 +554,6 @@ header .header-bottom .media-icons a {
   border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -567,18 +566,15 @@ header .header-bottom .media-icons a {
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
-
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #FFFFFF;
   position: relative;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 /*Blog Section*/
