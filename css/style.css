@@ -378,6 +378,7 @@ header .header-bottom .media-icons a {
 }
 
 .skills .item  .progress span{
+    display:block;
     border-radius:5px;
     color:#FFFFFF;
     background: #004499;
@@ -385,6 +386,33 @@ header .header-bottom .media-icons a {
 
 span.netcore {
     width:85%;
+}
+span.mvc {
+    width:80%;
+}
+span.sql {
+    width:75%;
+}
+span.csharp {
+    width:75%;
+}
+span.azure {
+    width:60%;
+}
+span.php{
+    width:75%;
+}
+span.mysql {
+    width:80%;
+}
+span.wordpress {
+    width:75%;
+}
+span.modx {
+    width:70%;
+}
+span.java {
+    width:50%;
 }
 
 /*Services Section*/
