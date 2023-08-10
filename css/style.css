@@ -351,6 +351,16 @@ header .header-bottom .media-icons a {
     padding: calc(5vh) 0 );
 }
 
+.skills h1 {
+    text-align: center;
+    padding: 10px 0 20px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #004499;
+}
+
+
 /*Services Section*/
 .services {
     background-image: url("../images/bg.jpg");
@@ -705,8 +715,6 @@ header .header-bottom .media-icons a {
     margin-right: 10px;
     height: 60px;
 }
-
-
 
 .contact .left-column .media-icons a.icon-facebook:hover {
     background-color: #3B5998;
