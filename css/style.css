@@ -373,15 +373,18 @@ header .header-bottom .media-icons a {
 
 .skills .item  .progress{
     background: #4c4d4d;
-    padding: 10px;
-    color: #ffffff;
     text-align: right;
     border-radius: 5px;
 }
 
-.skills .item  .progress .js{
-    width:60%;
+.skills .item  .progress span{
+    padding:5px;
+    color:#FFFFFF;
     background: #004499;
+}
+
+span.netcore {
+    width:85%;
 }
 
 /*Services Section*/
