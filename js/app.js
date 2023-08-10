@@ -1,8 +1,3 @@
-let viewResume = document.getElementById("btnViewResume");
-viewResume.addEventListener('click', () => {
-    location.href="files/Resume.pdf";
-});
-
 let aboutMore = document.getElementById("btnAboutMore");
 aboutMore.addEventListener('click', () => {
     location.href="about.html";
