@@ -13,5 +13,11 @@ portfolioMore.addEventListener('click', () => {
     location.href="portfolio.html";
 });
 
+let blogMore = document.getElementById("btnViewMoreBlog");
+blogMore.addEventListener('click', () => {
+    location.href="blog.html";
+});
+
+
 
 
