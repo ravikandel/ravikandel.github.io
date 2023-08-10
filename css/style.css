@@ -368,17 +368,17 @@ header .header-bottom .media-icons a {
 .skills .item p{
     font-size: 20px;
     color: #004499;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .skills .item  .progress{
-    background: #4c4d4d;
+    background: #dbe3f1;
     text-align: right;
     border-radius: 5px;
 }
 
 .skills .item  .progress span{
-    padding:5px;
+    border-radius:5px;
     color:#FFFFFF;
     background: #004499;
 }
