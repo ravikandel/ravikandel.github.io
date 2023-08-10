@@ -510,13 +510,12 @@ header .header-bottom .media-icons a {
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
+  margin-left: -1px;
 }
 
 .wrapper {
-  padding: 10px 40px;
+  padding: 10px 15px;
   position: relative;
-  background-color: inherit;
   width: 50%;
 }
 
@@ -527,7 +526,7 @@ header .header-bottom .media-icons a {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 5px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -541,40 +540,30 @@ header .header-bottom .media-icons a {
   left: 50%;
 }
 
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-.right::after {
-  left: -16px;
-}
-
 .content {
-  padding: 20px 30px;
-  background-color: #FFFFFF;
-  position: relative;
-  border-radius: 5px;
+    background: url(../images/bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 15px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #004499;
+}
+
+.content h1{
+    font-size:30px;
+    font-weight:600;
+    color:#004499
+}
+.content h2{
+    font-size:22px;
+    font-weight:600;
+    color:#004499
+}
+.content p{
+    font-size: 24px;
+    color: #4c4d4d;
 }
 
 /*Blog Section*/
