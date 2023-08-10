@@ -216,7 +216,27 @@ header .header-bottom .media-icons a {
 }
 
 
-.welcome-text button,
+.welcome-text a {
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #004499;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 2px solid #004499;
+    transition: all 0.4s ease;
+}
+
+.welcome-text a:hover {
+    background: transparent;
+    color: #004499;
+}
+
+
+.right-column button,
 .portfolio button,
 .blog button {
     outline: none;
@@ -238,7 +258,7 @@ header .header-bottom .media-icons a {
     margin: 0 auto;
 }
 
-.welcome-text button:hover,
+.right-column button:hover,
 .portfolio button:hover,
 .blog button:hover {
     background: transparent;
@@ -267,25 +287,6 @@ header .header-bottom .media-icons a {
     display: inline-block;
     width: 44vw;
     padding: calc(10vh) 10px 0;
-}
-
-.about-me .right-column a {
-    outline: none;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #004499;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
-    cursor: pointer;
-    border: 2px solid #004499;
-    transition: all 0.4s ease;
-}
-
-.about-me .right-column a:hover {
-    background: transparent;
-    color: #004499;
 }
 
 .about-me .right-column h1 {
