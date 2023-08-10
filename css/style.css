@@ -360,12 +360,15 @@ header .header-bottom .media-icons a {
     color: #004499;
 }
 .skills .item{
-    display:inline-block;
-    width:50%
+    width: 48%;
+    margin: 0.5%;
+    display: inline-block;
 }
 
 .skills .item p{
-    
+    font-size: 20px;
+    color: #004499;
+    font-weight: 600;
 }
 
 .skills .item  .progress{
@@ -376,7 +379,8 @@ header .header-bottom .media-icons a {
     border-radius: 5px;
 }
 
-.skills .item  .progress .html{
+.skills .item  .progress .js{
+    width:60%;
     background: #004499;
 }
 
