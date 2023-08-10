@@ -14,7 +14,8 @@ let subject = document.forms["contactform"]["subject"].value;
 let myNumber = document.forms["contactform"]["phone"].value;
 let myEmail = document.forms["contactform"]["email"].value;
 let message = document.forms["contactform"]["message"].value;
-   
+
+   var phoneRegx = /^\d{9}$/;
    
   if (!isValid(fullName)) {
        alert("Full Name must be filled.");
@@ -24,8 +25,8 @@ let message = document.forms["contactform"]["message"].value;
        alert("Subject must be choosen.");
        return false;
   }
-   else if (!isValid(myNumber)) {
-       alert("Phone Number must be entered.");
+   else if (!isValid(myNumber) && (myNumber.value.match(phoneRegx)) {
+       alert("Phone Number must be of 9 digit.");
        return false;
   }
    else if (!isValid(myEmail)) {
