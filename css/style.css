@@ -345,6 +345,12 @@ header .header-bottom .media-icons a {
     color: #4c4d4d;
 }
 
+/*Skills section*/
+
+.skills{
+    padding: calc(5vh) 0 );
+}
+
 /*Services Section*/
 .services {
     background-image: url("../images/bg.jpg");
