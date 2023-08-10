@@ -360,7 +360,8 @@ header .header-bottom .media-icons a {
     color: #004499;
 }
 .skills .item{
-    
+    display:inline-block;
+    width:50%
 }
 
 .skills .item p{
@@ -368,11 +369,15 @@ header .header-bottom .media-icons a {
 }
 
 .skills .item  .progress{
-    
+    background: #4c4d4d;
+    padding: 10px;
+    color: #ffffff;
+    text-align: right;
+    border-radius: 5px;
 }
 
 .skills .item  .progress .html{
-    
+    background: #004499;
 }
 
 /*Services Section*/
