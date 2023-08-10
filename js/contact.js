@@ -25,7 +25,7 @@ let message = document.forms["contactform"]["message"].value;
        alert("Subject must be choosen.");
        return false;
   }
-   else if (!isValid(myNumber) && (myNumber.value.match(phoneRegx)) {
+   else if (!isValid(myNumber) && (myNumber.value.match(phoneRegx))) {
        alert("Phone Number must be of 9 digit.");
        return false;
   }
